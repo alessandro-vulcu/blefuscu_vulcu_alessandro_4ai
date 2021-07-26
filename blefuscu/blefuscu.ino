@@ -10,6 +10,7 @@ String Rilev [] = {".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", ".."
 
 typedef struct nodo {
   char lettera;
+  string a;
   struct nodo* next;
 } Lista;
 
